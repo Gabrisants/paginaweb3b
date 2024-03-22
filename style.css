@@ -59,7 +59,12 @@ body{
 .botões{
     display: block;
 }
-@media and(min-width: 768px){
+.ativo{
+    background-color: var(--botao-alivo);
+    border-bottom: 4px solid var(--VERDE);
+}
+
+@media screen and (fn-width: 768px){
     .botões{
         display: flex;
     }
