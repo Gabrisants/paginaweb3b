@@ -41,7 +41,8 @@ body{
 .botao{
     font-family: "chakra petch", sans-serif;
     background-color: var(--botao-inativo);
-    color: flex;
+    color: var(--branco);
+    display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
